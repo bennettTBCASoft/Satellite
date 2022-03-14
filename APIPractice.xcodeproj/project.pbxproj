@@ -13,6 +13,7 @@
 		9189337727DDF42600AE88A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9189337527DDF42600AE88A9 /* Main.storyboard */; };
 		9189337927DDF42900AE88A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9189337827DDF42900AE88A9 /* Assets.xcassets */; };
 		9189337C27DDF42900AE88A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9189337A27DDF42900AE88A9 /* LaunchScreen.storyboard */; };
+		9189338C27DED0C800AE88A9 /* Satellite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9189338B27DED0C800AE88A9 /* Satellite.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9189337827DDF42900AE88A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9189337B27DDF42900AE88A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9189337D27DDF42900AE88A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9189338B27DED0C800AE88A9 /* Satellite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Satellite.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				9189336F27DDF42600AE88A9 /* AppDelegate.swift */,
 				9189337127DDF42600AE88A9 /* SceneDelegate.swift */,
 				9189337327DDF42600AE88A9 /* ViewController.swift */,
+				9189338B27DED0C800AE88A9 /* Satellite.swift */,
 				9189337527DDF42600AE88A9 /* Main.storyboard */,
 				9189337827DDF42900AE88A9 /* Assets.xcassets */,
 				9189337A27DDF42900AE88A9 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9189337427DDF42600AE88A9 /* ViewController.swift in Sources */,
+				9189338C27DED0C800AE88A9 /* Satellite.swift in Sources */,
 				9189337027DDF42600AE88A9 /* AppDelegate.swift in Sources */,
 				9189337227DDF42600AE88A9 /* SceneDelegate.swift in Sources */,
 			);
