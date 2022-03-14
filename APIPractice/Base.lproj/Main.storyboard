@@ -37,20 +37,22 @@
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3ar-PH-OAc">
                                                     <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zXi-DF-hWC">
-                                                    <rect key="frame" x="43.5" y="54" width="41.5" height="20.5"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="zXi-DF-hWC">
+                                                    <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="zXi-DF-hWC" firstAttribute="centerY" secondItem="KU5-YR-cTe" secondAttribute="centerY" id="0hZ-zJ-gPp"/>
-                                                <constraint firstItem="zXi-DF-hWC" firstAttribute="centerX" secondItem="KU5-YR-cTe" secondAttribute="centerX" id="3F1-DN-Kce"/>
                                                 <constraint firstItem="3ar-PH-OAc" firstAttribute="leading" secondItem="KU5-YR-cTe" secondAttribute="leading" id="8N7-s8-XWh"/>
                                                 <constraint firstAttribute="bottom" secondItem="3ar-PH-OAc" secondAttribute="bottom" id="Rb0-3r-qiK"/>
+                                                <constraint firstAttribute="trailing" secondItem="zXi-DF-hWC" secondAttribute="trailing" id="Tge-Tt-gPI"/>
+                                                <constraint firstItem="zXi-DF-hWC" firstAttribute="leading" secondItem="KU5-YR-cTe" secondAttribute="leading" id="WBn-ib-XiZ"/>
                                                 <constraint firstItem="3ar-PH-OAc" firstAttribute="top" secondItem="KU5-YR-cTe" secondAttribute="top" id="dhd-TR-JYv"/>
                                                 <constraint firstAttribute="trailing" secondItem="3ar-PH-OAc" secondAttribute="trailing" id="eLf-N5-suU"/>
+                                                <constraint firstItem="zXi-DF-hWC" firstAttribute="top" secondItem="KU5-YR-cTe" secondAttribute="top" id="gmQ-yS-yDd"/>
+                                                <constraint firstAttribute="bottom" secondItem="zXi-DF-hWC" secondAttribute="bottom" id="iU9-jS-Op8"/>
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <connections>

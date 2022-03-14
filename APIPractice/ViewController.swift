@@ -113,11 +113,13 @@ class PhotoCollectionViewCell: UICollectionViewCell {
     }
     
     func update() {
-        label.text = satellite.title
+        let title = satellite.title
+        label.text = title
         imageView.image = UIImage(systemName: "questionmark.circle")
         fetchImage(url: satellite.url) { image in
             guard let image = image else { return }
             DispatchQueue.main.async {
+                guard title == self.satellite.title else { return }
                 self.imageView.image = image
             }
         }
